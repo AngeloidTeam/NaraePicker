@@ -1,4 +1,5 @@
 # NaraePicker
+Easy Choose Picture Activity, use Material Design! 
 
 ## Usage
 
