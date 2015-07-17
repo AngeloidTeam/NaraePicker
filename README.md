@@ -14,7 +14,7 @@ and
 ```
 @Override
 protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-  if (requestCode == 72 && resultCode == RESULT_OK && data != null) {
+  if (requestCode == 72 && data != null) {
     ArrayList<String> images = data.getStringArrayListExtra("images");
   }
 }
