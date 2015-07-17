@@ -123,6 +123,7 @@ public class AlbumActivity extends AppCompatActivity {
             Intent imageIntent = new Intent(AlbumActivity.this, ImageActivity.class);
             imageIntent.putExtra("folderName", album.name);
             imageIntent.putExtra("limit", limit);
+            imageIntent.setFlags(Intent.FLAG_ACTIVITY_FORWARD_RESULT);
             startActivity(imageIntent);
             finish();
         }
