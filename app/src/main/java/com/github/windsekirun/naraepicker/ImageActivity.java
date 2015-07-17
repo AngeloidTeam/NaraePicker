@@ -74,6 +74,7 @@ public class ImageActivity extends AppCompatActivity {
                         Intent intent = new Intent();
                         intent.putStringArrayListExtra("images", fileList);
                         Toast.makeText(ImageActivity.this, "정상 작동합니다. 로그캣 참조하세요.", Toast.LENGTH_SHORT).show();
+                        Log.d("NaraePicker", "Selected Image Count: " + fileList.size());
                         for (String file : fileList)
                             Log.d("NaraePicker", "Selected Image: " + file);
                     } else {
@@ -149,6 +150,8 @@ public class ImageActivity extends AppCompatActivity {
             adapter.notifyDataSetChanged();
             tempSet.clear();
             tempSet.trimToSize();
+
+            toolbar.setTitle(albumName + " (" + itemSet.size() + ") ");
         }
     }
 
