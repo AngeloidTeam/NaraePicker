@@ -23,7 +23,8 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 so Easy to Use!
 
 ## ScreenShots
-!(http://i.imgur.com/K0PIcBs.png)
+![ScreenShot1](http://i.imgur.com/8d9EM68.png)
+![ScreenShot2](http://i.imgur.com/K0PIcBs.png)
 
 ## License
 
