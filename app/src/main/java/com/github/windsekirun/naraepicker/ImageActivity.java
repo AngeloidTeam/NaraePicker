@@ -73,10 +73,8 @@ public class ImageActivity extends AppCompatActivity {
                     if (!(fileList.size() > limit)) {
                         Intent intent = new Intent();
                         intent.putStringArrayListExtra("images", fileList);
-                        Toast.makeText(ImageActivity.this, "정상 작동합니다. 로그캣 참조하세요.", Toast.LENGTH_SHORT).show();
-                        Log.d("NaraePicker", "Selected Image Count: " + fileList.size());
-                        for (String file : fileList)
-                            Log.d("NaraePicker", "Selected Image: " + file);
+                        setResult(RESULT_OK);
+                        finish();
                     } else {
                         Toast.makeText(ImageActivity.this, "최대 사진 첨부 갯수를 초과하셨습니다.", Toast.LENGTH_SHORT).show();
                     }
@@ -210,7 +208,6 @@ public class ImageActivity extends AppCompatActivity {
 
     public class Image implements Parcelable {
         public String imagePath;
-        public boolean isSelected;
 
         public Image(String imagePath) {
             this.imagePath = imagePath;
@@ -224,7 +221,6 @@ public class ImageActivity extends AppCompatActivity {
         @Override
         public void writeToParcel(Parcel dest, int flags) {
             dest.writeString(imagePath);
-            dest.writeByte((byte) (isSelected ? 1 : 0));
         }
 
         public final Parcelable.Creator<Image> CREATOR = new Parcelable.Creator<Image>() {
@@ -241,7 +237,6 @@ public class ImageActivity extends AppCompatActivity {
 
         private Image(Parcel in) {
             imagePath = in.readString();
-            isSelected = in.readByte() != 0;
         }
     }
 
