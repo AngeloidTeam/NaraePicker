@@ -22,6 +22,9 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
 so Easy to Use!
 
+## ScreenShots
+!(http://i.imgur.com/K0PIcBs.png)
+
 ## License
 
 This source follows [MIT License](https://github.com/WindSekirun/NaraePicker/blob/master/license.md)
