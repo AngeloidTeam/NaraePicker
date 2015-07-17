@@ -27,6 +27,6 @@ This source follows [MIT License](https://github.com/WindSekirun/NaraePicker/blo
 
 ## Version
 
-** v 1.0.0 (2015.07.18) **
+**v 1.0.0 (2015.07.18)**
 
 1. Initial Commit
