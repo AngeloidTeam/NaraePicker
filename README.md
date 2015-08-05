@@ -34,3 +34,10 @@ This source follows [MIT License](https://github.com/WindSekirun/NaraePicker/blo
 **v 1.0.0 (2015.07.18)**
 
 1. Initial Commit
+
+## 다른 나래 라이브러리
+* **[NaraePreference](https://github.com/WindSekirun/NaraePreference)** - SharedPreference Wrapper
+* **[NaraeAsynchronous](http://www.windsekirun.wo.tc/NaraeAsynchronous)** - Thread Executor
+* **[NaraePicker](http://www.windsekirun.wo.tc/NaraePicker)** - Multi Image Select
+* **[NaraeResizer](https://github.com/WindSekirun/NaraeResizer)** - Bitmap Resizer
+* **[NaraeTextView](http://www.windsekirun.wo.tc/NaraeTextView)** - Clickable TextView
