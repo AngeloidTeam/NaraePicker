@@ -1,4 +1,4 @@
-# NaraePicker
+# NaraePicker [![Build Status](https://travis-ci.org/AngeloidTeam/NaraePicker.svg?branch=master)](https://travis-ci.org/AngeloidTeam/NaraePicker)
 Easy Choose Picture Activity, use Material Design! 
 
 ## Usage
