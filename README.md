@@ -1,3 +1,6 @@
+## Deprecated!
+This source has deprecated. Please use [NaraeImagePicker](https://github.com/WindSekirun/NaraeImagePicker) instead.
+
 # NaraePicker [![Build Status](https://travis-ci.org/AngeloidTeam/NaraePicker.svg?branch=master)](https://travis-ci.org/AngeloidTeam/NaraePicker)
 Easy Choose Picture Activity, use Material Design! 
 
